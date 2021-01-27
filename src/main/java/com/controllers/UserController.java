@@ -16,6 +16,7 @@ public class UserController {
     Util util = new Util();
 
     @GetMapping("/register")
+
     public String myForm(Model model){
         User user = new User();
         model.addAttribute("user",user);
@@ -25,6 +26,7 @@ public class UserController {
 
     @PostMapping("/register")
     public String submitMyForm(@Valid User user, BindingResult bindingResult){
+
         boolean errorFound = bindingResult.hasErrors();
         if (errorFound) {
             return "index";
