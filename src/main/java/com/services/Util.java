@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import java.util.UUID;
 
-@Component
+@Service
 public class Util {
 
 // # sto key gia na parei to pedio
