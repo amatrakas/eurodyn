@@ -14,7 +14,7 @@
 <body>
 <center>
     <h1>User Registration Form</h1>
-    <form:form  modelAttribute="user" method="post">
+    <form:form  modelAttribute="user" method="post" action="register">
         <table>
         <input type="hidden" id="id" name="id"
           <tr>

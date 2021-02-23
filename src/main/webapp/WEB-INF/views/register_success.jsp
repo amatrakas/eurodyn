@@ -10,6 +10,7 @@
 <center>
 <h1>Congratulations new id singed to you</h1>
 Id:${user.id}
+</center>
 </body>
 </html>
 
