@@ -25,7 +25,7 @@ public class Util {
         logger.info("Util.uniqueId starts ..");
         try {
             logger.info("In to the cache- generates the UUID");
-            String uuid = UUID.randomUUID().toString();
+            Integer uuid = UUID.randomUUID().toString();
             user.setId(uuid);
         }catch (Exception e){
             throw new Exception();

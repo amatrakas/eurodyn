@@ -2,14 +2,13 @@ package com.dataTransferObjects;
 
 import com.sun.istack.internal.NotNull;
 import org.springframework.stereotype.Component;
-
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
 
 public class User implements Serializable {
-    private String id;
+    private int id;
     @NotNull
     @Size(min=4,max=15)
     private String name;
