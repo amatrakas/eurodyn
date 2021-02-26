@@ -7,8 +7,10 @@ import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
 
+
 public class User implements Serializable {
-    private int id;
+
+    private String id;
     @NotNull
     @Size(min=4,max=15)
     private String name;
