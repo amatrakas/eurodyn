@@ -19,7 +19,6 @@ public class Util {
     CacheManager cacheManager;
 
 
-
     @Cacheable(cacheNames = "usercache",key = "#user.email")
     public User uniqueId(User user)throws Exception{
         logger.info("Util.uniqueId starts ..");
